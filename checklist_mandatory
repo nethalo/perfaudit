@@ -8,7 +8,6 @@ innodb_flush_method
 innodb_io_capacity_max
 innodb_io_capacity
 innodb_log_file_size
-innodb_log_files_in_group
 innodb_lru_scan_depth
 innodb_max_purge_lag_delay
 innodb_max_purge_lag
