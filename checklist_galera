@@ -8,8 +8,7 @@ innodb_autoinc_lock_mode
 pc.recovery
 pxc_strict_mode
 wsrep_cluster_address
-wsrep_cluster_name
 wsrep_OSU_method
-wsrep_sst_auth
+wsrep_slave_threads
 wsrep_sst_method
 wsrep_sync_wait
