@@ -12,9 +12,7 @@ relay_log_space_limit
 server_id
 skip_slave_start
 slave_net_timeout
-slave_net_timeout
 slave_parallel_type
 slave_parallel_workers
 slave_pending_jobs_size_max
-sync_binlog
 slave_preserver_commit_order
