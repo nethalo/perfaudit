@@ -1,17 +1,17 @@
-auto_increment_increment			Must-Check	1	Configuration - Replication	Pending		Disabled
-auto_increment_offset			Must-Check	1	Configuration - Replication	Pending		Disabled
-binlog_cache_size			Must-Check	According to the load	Configuration - Replication	Pending		Disabled
-binlog_format			Specific	ROW	Configuration - Replication	Pending		Disabled
-binlog_group_commit_sync_delay			Must-Check	In general, having some delay improves 	Configuration - Replication	Pending		Disabled
-binlog_row_image			Non-Default	Minimal	Configuration - Replication	Pending		Disabled
-expire_logs_days			Must-Check	Beware that logs are never rotated	Configuration - Replication	Pending		Disabled
-innodb_locks_unsafe_for_binlog			Default	OFF	Configuration - Replication	Pending		Disabled
-log_slave_updates			Non-Default	ON	Configuration - Replication	Pending		Disabled
-max_allowed_packet			Non-Default	1G	Configuration - Replication	Pending		Disabled
-relay_log_space_limit			Non-Default	1G	Configuration - Replication	Pending		Disabled
-server_id			Must-Check	Different than master (at least)	Configuration - Replication	Pending		Disabled
-slave_net_timeout			Non-Default	250	Configuration - Replication	Pending		Disabled
-slave_parallel_type			Specific	LOGICAL_CLOCK	Configuration - Replication	Pending		Disabled
-slave_parallel_workers			Default	0	Configuration - Replication	Pending		Disabled
-slave_pending_jobs_size_max			Must-Check	according to the load	Configuration - Replication	Pending		Disabled
-slave_preserver_commit_order			Must-Check	Set	Configuration - Replication	Pending		Disabled
+auto_increment_increment			Must-Check	1	Configuration - Replication	Pending
+auto_increment_offset			Must-Check	1	Configuration - Replication	Pending
+binlog_cache_size			Must-Check	According to the load	Configuration - Replication	Pending
+binlog_format			Specific	ROW	Configuration - Replication	Pending
+binlog_group_commit_sync_delay			Must-Check	In general, having some delay improves 	Configuration - Replication	Pending
+binlog_row_image			Non-Default	Minimal	Configuration - Replication	Pending
+expire_logs_days			Must-Check	Beware that logs are never rotated	Configuration - Replication	Pending
+innodb_locks_unsafe_for_binlog			Default	OFF	Configuration - Replication	Pending
+log_slave_updates			Non-Default	ON	Configuration - Replication	Pending
+max_allowed_packet			Non-Default	1G	Configuration - Replication	Pending
+relay_log_space_limit			Non-Default	1G	Configuration - Replication	Pending
+server_id			Must-Check	Different than master (at least)	Configuration - Replication	Pending
+slave_net_timeout			Non-Default	250	Configuration - Replication	Pending
+slave_parallel_type			Specific	LOGICAL_CLOCK	Configuration - Replication	Pending
+slave_parallel_workers			Default	0	Configuration - Replication	Pending
+slave_pending_jobs_size_max			Must-Check	according to the load	Configuration - Replication	Pending
+slave_preserver_commit_order			Must-Check	Set	Configuration - Replication	Pending
