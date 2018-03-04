@@ -1,6 +1,6 @@
-Is the system dealing with a lot of Certification errors (Galera)?	Statistics Analysis	Pending		='Galera - MySQL'!$A$1
-Galera cluster stability (cluster_conf_id & cluster_size changed in the last 24 hrs?)	Statistics Analysis	Pending		='Galera - MySQL'!$A$1
-Galera flow control issues?	Statistics Analysis	Pending		='Galera - MySQL'!$A$1
-Tables without PK are bad in Galera, are there any?	Schema Design	Pending		='Galera - MySQL'!$A$1
-Are there any MyiSAM Tables?	Schema Design	Pending		='Galera - MySQL'!$A$1
-Frequent DDLs in TOI?	Statistics Analysis	Pending		='Galera - MySQL'!$A$1
+Is the system dealing with a lot of Certification errors (Galera)?	Statistics Analysis	Pending	
+Galera cluster stability (cluster_conf_id & cluster_size changed in the last 24 hrs?)	Statistics Analysis	Pending	
+Galera flow control issues?	Statistics Analysis	Pending	
+Tables without PK are bad in Galera, are there any?	Schema Design	Pending	
+Are there any MyiSAM Tables?	Schema Design	Pending	
+Frequent DDLs in TOI?	Statistics Analysis	Pending	
