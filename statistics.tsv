@@ -10,9 +10,9 @@ Does the InnoDB History List Length ever rise > ~500.000?	Statistics Analysis	Pe
 Are the temp tables size enough? Can be increased safely?	Statistics Analysis	Pending		Enabled
 Are too many Temp Disk Tables?	Statistics Analysis	Pending		Enabled
 Is the system dealing with a lot of Certification errors (Galera)?	Statistics Analysis	Pending		Enabled
-Does the working set fit in memory? (Are there a lot of disks reads, innodb disk reads...)	Statistics Analysis	Pending		
-InnoDB Compression working properly?	Statistics Analysis	Pending		
-Query workload concerns? (Select inser update delete)	Statistics Analysis	Pending		
-Any special com_* statements happening too frequently?	Statistics Analysis	Pending		
-Workload Stable? (innodb_threads_running)	Statistics Analysis	Pending		
-Any issues with open_tables?	Statistics Analysis	Pending		
+Does the working set fit in memory? (Are there a lot of disks reads, innodb disk reads...)	Statistics Analysis	Pending		Enabled
+InnoDB Compression working properly?	Statistics Analysis	Pending		Enabled
+Query workload concerns? (Select inser update delete)	Statistics Analysis	Pending		Enabled
+Any special com_* statements happening too frequently?	Statistics Analysis	Pending		Enabled
+Workload Stable? (innodb_threads_running)	Statistics Analysis	Pending		Enabled
+Any issues with open_tables?	Statistics Analysis	Pending		Enabled
