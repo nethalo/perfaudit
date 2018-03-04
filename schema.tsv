@@ -1,0 +1,11 @@
+Tables without PK in a dangerous number		Schema Design	Pending		Enabled
+Number of tables beyond mysql limits		Dataset Analysis	Pending		Enabled
+Non-typical storage engine? (federated, archive, etc)		Schema Design	Pending		Enabled
+Datadir size particulary challenging?		Dataset Analysis	Pending		Enabled
+Top largest tables. Too big for operational smoothness ?		Dataset Analysis	Pending		Enabled
+Way too much duplicated indexes?		Schema Design	Pending		Enabled
+Non-used indexes confusing the optimizer 		Schema Design	Pending		Enabled
+Potentially missing indexes		Schema Design	Pending		Enabled
+Top tables with most columns challenging mysql limits		Schema Design	Pending		Enabled
+Auto increment exhaustion near?		Dataset Analysis	Pending		Enabled
+data-to-index ratio		Dataset Analysis	Pending		Enabled
