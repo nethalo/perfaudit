@@ -1,14 +1,14 @@
-binlog_format	ROW	ROW	Specific	ROW	Configuration - Galera	Pending		Enabled
-default_storage_engine	InnoDB	InnoDB	Specific	InnoDB	Configuration - Galera	Pending		Enabled
-gcache.freeze_purge_at_seqno	N/A	N/A	Must-Check	Depends on the load	Configuration - Galera	Pending		Enabled
-gcache.size	128M	128M	Non-Default	Bigger than default	Configuration - Galera	Pending		Enabled
-gcs.fc_limit	16	16	Must-Check	in general default is fine	Configuration - Galera	Pending		Enabled
-gmcast.segment	0	0	Must-Check	Importan when multi DC	Configuration - Galera	Pending		Enabled
-innodb_autoinc_lock_mode	2	2	Specific	2	Configuration - Galera	Pending		Enabled
-pc.recovery	true	true	Specific	TRUE	Configuration - Galera	Pending		Enabled
-pxc_strict_mode	N/A	N/A	Specific	ENABLED	Configuration - Galera	Pending		Enabled
-wsrep_cluster_address	gcomm://172.16.4.6,172.16.4.7,172.16.4.8	gcomm://	Non-Default	defined	Configuration - Galera	Pending		Enabled
-wsrep_OSU_method	TOI	TOI	Specific	TOI	Configuration - Galera	Pending		Enabled
-wsrep_slave_threads	1	2	Non-Default	More than 1	Configuration - Galera	Pending		Enabled
-wsrep_sst_method	xtrabackup-v2	xtrabackup-v2	Specific	Should be xtrabackup-v2 in 99.999% of the cases	Configuration - Galera	Pending		Enabled
-wsrep_sync_wait	0	0	Default	Default	Configuration - Galera	Pending		Enabled
+binlog_format			Specific	ROW	Configuration - Galera	Pending		Enabled
+default_storage_engine			Specific	InnoDB	Configuration - Galera	Pending		Enabled
+gcache.freeze_purge_at_seqno			Must-Check	Depends on the load	Configuration - Galera	Pending		Enabled
+gcache.size			Non-Default	Bigger than default	Configuration - Galera	Pending		Enabled
+gcs.fc_limit			Must-Check	in general default is fine	Configuration - Galera	Pending		Enabled
+gmcast.segment			Must-Check	Importan when multi DC	Configuration - Galera	Pending		Enabled
+innodb_autoinc_lock_mode			Specific	2	Configuration - Galera	Pending		Enabled
+pc.recovery			Specific	TRUE	Configuration - Galera	Pending		Enabled
+pxc_strict_mode			Specific	ENABLED	Configuration - Galera	Pending		Enabled
+wsrep_cluster_address			Non-Default	defined	Configuration - Galera	Pending		Enabled
+wsrep_OSU_method			Specific	TOI	Configuration - Galera	Pending		Enabled
+wsrep_slave_threads			Non-Default	More than 1	Configuration - Galera	Pending		Enabled
+wsrep_sst_method			Specific	Should be xtrabackup-v2 in 99.999% of the cases	Configuration - Galera	Pending		Enabled
+wsrep_sync_wait			Default	Default	Configuration - Galera	Pending		Enabled
